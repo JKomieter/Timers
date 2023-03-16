@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri';
+}
+
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.dashBoard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.column {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.timers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.content {
+    display: contents;
+    height: 100px;
+    padding: 7px;
+    width: 100%;
+}
+
+.timerCard {
+    border: 1px solid #000;
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.meta {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.elapsedString {
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.extraContent {
+    text-align: right;
+}
+
+.start {
+    text-align: center;
+    padding: 9px;
+}
+
+.startButton {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid #008cff;
+    color: #008cff;
+}
+
+.stopButton {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid #ff0000;
+    color: #ff0808;
+}
+
+.contentForm {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title, .project {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeButton {
+    width: 100%;
+}
+
+.blueButton, .redButton {
+    width: 50%;
+}
+
+.blueButton {
+    border: 2px solid #028b0e;
+    color: #02910e;
+}
+
+.redButton {
+    border: 2px solid #ff0000;
+    color: #ff0000;
+}
+
+.addIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit, .trash {
+    cursor: pointer;
+}
+
+
+
+
